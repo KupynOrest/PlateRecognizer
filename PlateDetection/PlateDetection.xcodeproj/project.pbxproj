@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05132BC21C6B810A00F99FA9 /* CarSnapshot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05132BC01C6B810A00F99FA9 /* CarSnapshot.cpp */; };
+		05132BCA1C6BDC2000F99FA9 /* PeakFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05132BC81C6BDC2000F99FA9 /* PeakFinder.cpp */; };
+		05132BCD1C6BDE6300F99FA9 /* CarPlateRecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05132BCB1C6BDE6300F99FA9 /* CarPlateRecognizer.cpp */; };
+		05132BD01C6CA0D400F99FA9 /* SnapshotStatistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05132BCE1C6CA0D400F99FA9 /* SnapshotStatistics.cpp */; };
+		05132BD31C6CA0ED00F99FA9 /* CommonDataTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05132BD11C6CA0ED00F99FA9 /* CommonDataTypes.cpp */; };
+		05132C441C7CB5F200F99FA9 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05132C431C7CB5F200F99FA9 /* CoreImage.framework */; };
+		05132C461C7CB5FD00F99FA9 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 05132C451C7CB5FD00F99FA9 /* libstdc++.tbd */; };
+		053697921CE500B4009D2910 /* main.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 053697911CE500B4009D2910 /* main.jpg */; };
+		053697941CE50294009D2910 /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = 053697931CE50294009D2910 /* main.png */; };
+		0588AA121C906DA900BA85DF /* CharSegment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0588AA101C906DA900BA85DF /* CharSegment.cpp */; };
+		05A701861BED20A00090D289 /* PDChartViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 05A701851BED20A00090D289 /* PDChartViewController.mm */; };
+		05A7018C1BED21540090D289 /* FSLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A701891BED21540090D289 /* FSLineChart.m */; };
+		05A7018D1BED21540090D289 /* UIColor+FSPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A7018B1BED21540090D289 /* UIColor+FSPalette.m */; };
+		05EFB35A1BEA3F6600F197E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EFB3591BEA3F6600F197E1 /* main.m */; };
+		05EFB35D1BEA3F6600F197E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EFB35C1BEA3F6600F197E1 /* AppDelegate.m */; };
+		05EFB3601BEA3F6600F197E1 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 05EFB35F1BEA3F6600F197E1 /* ViewController.mm */; };
+		05EFB3631BEA3F6600F197E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05EFB3611BEA3F6600F197E1 /* Main.storyboard */; };
+		05EFB3651BEA3F6600F197E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05EFB3641BEA3F6600F197E1 /* Assets.xcassets */; };
+		05EFB3681BEA3F6600F197E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05EFB3661BEA3F6600F197E1 /* LaunchScreen.storyboard */; };
+		05EFB3721BEA3FAA00F197E1 /* PDImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 05EFB3711BEA3FAA00F197E1 /* PDImage.mm */; };
+		05EFB3751BEA3FBA00F197E1 /* Pixel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05EFB3741BEA3FBA00F197E1 /* Pixel.cpp */; };
+		05F52D7B1BF3A45600A74ACF /* PDProjection.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F52D7A1BF3A45600A74ACF /* PDProjection.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05132BC01C6B810A00F99FA9 /* CarSnapshot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CarSnapshot.cpp; sourceTree = "<group>"; };
+		05132BC11C6B810A00F99FA9 /* CarSnapshot.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CarSnapshot.hpp; sourceTree = "<group>"; };
+		05132BC81C6BDC2000F99FA9 /* PeakFinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PeakFinder.cpp; sourceTree = "<group>"; };
+		05132BC91C6BDC2000F99FA9 /* PeakFinder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PeakFinder.hpp; sourceTree = "<group>"; };
+		05132BCB1C6BDE6300F99FA9 /* CarPlateRecognizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CarPlateRecognizer.cpp; sourceTree = "<group>"; };
+		05132BCC1C6BDE6300F99FA9 /* CarPlateRecognizer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CarPlateRecognizer.hpp; sourceTree = "<group>"; };
+		05132BCE1C6CA0D400F99FA9 /* SnapshotStatistics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SnapshotStatistics.cpp; sourceTree = "<group>"; };
+		05132BCF1C6CA0D400F99FA9 /* SnapshotStatistics.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SnapshotStatistics.hpp; sourceTree = "<group>"; };
+		05132BD11C6CA0ED00F99FA9 /* CommonDataTypes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommonDataTypes.cpp; sourceTree = "<group>"; };
+		05132BD21C6CA0ED00F99FA9 /* CommonDataTypes.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CommonDataTypes.hpp; sourceTree = "<group>"; };
+		05132C431C7CB5F200F99FA9 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		05132C451C7CB5FD00F99FA9 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		053697911CE500B4009D2910 /* main.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = main.jpg; sourceTree = "<group>"; };
+		053697931CE50294009D2910 /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = "<group>"; };
+		0588AA101C906DA900BA85DF /* CharSegment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CharSegment.cpp; sourceTree = "<group>"; };
+		0588AA111C906DA900BA85DF /* CharSegment.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CharSegment.hpp; sourceTree = "<group>"; };
+		05A701841BED20A00090D289 /* PDChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDChartViewController.h; sourceTree = "<group>"; };
+		05A701851BED20A00090D289 /* PDChartViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PDChartViewController.mm; sourceTree = "<group>"; };
+		05A701881BED21540090D289 /* FSLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLineChart.h; sourceTree = "<group>"; };
+		05A701891BED21540090D289 /* FSLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLineChart.m; sourceTree = "<group>"; };
+		05A7018A1BED21540090D289 /* UIColor+FSPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FSPalette.h"; sourceTree = "<group>"; };
+		05A7018B1BED21540090D289 /* UIColor+FSPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FSPalette.m"; sourceTree = "<group>"; };
+		05EFB3551BEA3F6600F197E1 /* PlateDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlateDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05EFB3591BEA3F6600F197E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05EFB35B1BEA3F6600F197E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05EFB35C1BEA3F6600F197E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05EFB35E1BEA3F6600F197E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		05EFB35F1BEA3F6600F197E1 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		05EFB3621BEA3F6600F197E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05EFB3641BEA3F6600F197E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05EFB3671BEA3F6600F197E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05EFB3691BEA3F6600F197E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05EFB3701BEA3FAA00F197E1 /* PDImage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = PDImage.h; sourceTree = "<group>"; };
+		05EFB3711BEA3FAA00F197E1 /* PDImage.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PDImage.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		05EFB3731BEA3FBA00F197E1 /* Pixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pixel.h; sourceTree = "<group>"; };
+		05EFB3741BEA3FBA00F197E1 /* Pixel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pixel.cpp; sourceTree = "<group>"; };
+		05F52D791BF3A45600A74ACF /* PDProjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDProjection.h; sourceTree = "<group>"; };
+		05F52D7A1BF3A45600A74ACF /* PDProjection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDProjection.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05EFB3521BEA3F6600F197E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05132C461C7CB5FD00F99FA9 /* libstdc++.tbd in Frameworks */,
+				05132C441C7CB5F200F99FA9 /* CoreImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05132BBE1C6B80B800F99FA9 /* CarCV */ = {
+			isa = PBXGroup;
+			children = (
+				05132BBF1C6B80CA00F99FA9 /* ImageAnalysys */,
+				05EFB3701BEA3FAA00F197E1 /* PDImage.h */,
+				05EFB3711BEA3FAA00F197E1 /* PDImage.mm */,
+			);
+			name = CarCV;
+			sourceTree = "<group>";
+		};
+		05132BBF1C6B80CA00F99FA9 /* ImageAnalysys */ = {
+			isa = PBXGroup;
+			children = (
+				05EFB3731BEA3FBA00F197E1 /* Pixel.h */,
+				05EFB3741BEA3FBA00F197E1 /* Pixel.cpp */,
+				05132BC11C6B810A00F99FA9 /* CarSnapshot.hpp */,
+				05132BC01C6B810A00F99FA9 /* CarSnapshot.cpp */,
+				05132BC91C6BDC2000F99FA9 /* PeakFinder.hpp */,
+				05132BC81C6BDC2000F99FA9 /* PeakFinder.cpp */,
+				05132BCC1C6BDE6300F99FA9 /* CarPlateRecognizer.hpp */,
+				05132BCB1C6BDE6300F99FA9 /* CarPlateRecognizer.cpp */,
+				0588AA111C906DA900BA85DF /* CharSegment.hpp */,
+				0588AA101C906DA900BA85DF /* CharSegment.cpp */,
+				05132BCF1C6CA0D400F99FA9 /* SnapshotStatistics.hpp */,
+				05132BCE1C6CA0D400F99FA9 /* SnapshotStatistics.cpp */,
+				05132BD21C6CA0ED00F99FA9 /* CommonDataTypes.hpp */,
+				05132BD11C6CA0ED00F99FA9 /* CommonDataTypes.cpp */,
+			);
+			name = ImageAnalysys;
+			sourceTree = "<group>";
+		};
+		05A701831BED207D0090D289 /* PDProjection */ = {
+			isa = PBXGroup;
+			children = (
+				05A701841BED20A00090D289 /* PDChartViewController.h */,
+				05A701851BED20A00090D289 /* PDChartViewController.mm */,
+				05F52D791BF3A45600A74ACF /* PDProjection.h */,
+				05F52D7A1BF3A45600A74ACF /* PDProjection.m */,
+			);
+			name = PDProjection;
+			sourceTree = "<group>";
+		};
+		05A701871BED21540090D289 /* FSLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				05A701881BED21540090D289 /* FSLineChart.h */,
+				05A701891BED21540090D289 /* FSLineChart.m */,
+				05A7018A1BED21540090D289 /* UIColor+FSPalette.h */,
+				05A7018B1BED21540090D289 /* UIColor+FSPalette.m */,
+			);
+			path = FSLineChart;
+			sourceTree = "<group>";
+		};
+		05EFB34C1BEA3F6600F197E1 = {
+			isa = PBXGroup;
+			children = (
+				05132C451C7CB5FD00F99FA9 /* libstdc++.tbd */,
+				05132C431C7CB5F200F99FA9 /* CoreImage.framework */,
+				05EFB3571BEA3F6600F197E1 /* PlateDetection */,
+				05EFB3561BEA3F6600F197E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05EFB3561BEA3F6600F197E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05EFB3551BEA3F6600F197E1 /* PlateDetection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05EFB3571BEA3F6600F197E1 /* PlateDetection */ = {
+			isa = PBXGroup;
+			children = (
+				05132BBE1C6B80B800F99FA9 /* CarCV */,
+				05A701871BED21540090D289 /* FSLineChart */,
+				05A701831BED207D0090D289 /* PDProjection */,
+				05EFB35B1BEA3F6600F197E1 /* AppDelegate.h */,
+				05EFB35C1BEA3F6600F197E1 /* AppDelegate.m */,
+				05EFB35E1BEA3F6600F197E1 /* ViewController.h */,
+				05EFB35F1BEA3F6600F197E1 /* ViewController.mm */,
+				053697931CE50294009D2910 /* main.png */,
+				053697911CE500B4009D2910 /* main.jpg */,
+				05EFB3611BEA3F6600F197E1 /* Main.storyboard */,
+				05EFB3641BEA3F6600F197E1 /* Assets.xcassets */,
+				05EFB3661BEA3F6600F197E1 /* LaunchScreen.storyboard */,
+				05EFB3691BEA3F6600F197E1 /* Info.plist */,
+				05EFB3581BEA3F6600F197E1 /* Supporting Files */,
+			);
+			path = PlateDetection;
+			sourceTree = "<group>";
+		};
+		05EFB3581BEA3F6600F197E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05EFB3591BEA3F6600F197E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05EFB3541BEA3F6600F197E1 /* PlateDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05EFB36C1BEA3F6600F197E1 /* Build configuration list for PBXNativeTarget "PlateDetection" */;
+			buildPhases = (
+				05EFB3511BEA3F6600F197E1 /* Sources */,
+				05EFB3521BEA3F6600F197E1 /* Frameworks */,
+				05EFB3531BEA3F6600F197E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlateDetection;
+			productName = PlateDetection;
+			productReference = 05EFB3551BEA3F6600F197E1 /* PlateDetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05EFB34D1BEA3F6600F197E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Lemberg;
+				TargetAttributes = {
+					05EFB3541BEA3F6600F197E1 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 05EFB3501BEA3F6600F197E1 /* Build configuration list for PBXProject "PlateDetection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05EFB34C1BEA3F6600F197E1;
+			productRefGroup = 05EFB3561BEA3F6600F197E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05EFB3541BEA3F6600F197E1 /* PlateDetection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05EFB3531BEA3F6600F197E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05EFB3681BEA3F6600F197E1 /* LaunchScreen.storyboard in Resources */,
+				05EFB3651BEA3F6600F197E1 /* Assets.xcassets in Resources */,
+				053697941CE50294009D2910 /* main.png in Resources */,
+				05EFB3631BEA3F6600F197E1 /* Main.storyboard in Resources */,
+				053697921CE500B4009D2910 /* main.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05EFB3511BEA3F6600F197E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05132BCA1C6BDC2000F99FA9 /* PeakFinder.cpp in Sources */,
+				0588AA121C906DA900BA85DF /* CharSegment.cpp in Sources */,
+				05EFB3601BEA3F6600F197E1 /* ViewController.mm in Sources */,
+				05132BC21C6B810A00F99FA9 /* CarSnapshot.cpp in Sources */,
+				05F52D7B1BF3A45600A74ACF /* PDProjection.m in Sources */,
+				05EFB35D1BEA3F6600F197E1 /* AppDelegate.m in Sources */,
+				05EFB35A1BEA3F6600F197E1 /* main.m in Sources */,
+				05EFB3751BEA3FBA00F197E1 /* Pixel.cpp in Sources */,
+				05A7018C1BED21540090D289 /* FSLineChart.m in Sources */,
+				05132BD31C6CA0ED00F99FA9 /* CommonDataTypes.cpp in Sources */,
+				05132BD01C6CA0D400F99FA9 /* SnapshotStatistics.cpp in Sources */,
+				05EFB3721BEA3FAA00F197E1 /* PDImage.mm in Sources */,
+				05132BCD1C6BDE6300F99FA9 /* CarPlateRecognizer.cpp in Sources */,
+				05A7018D1BED21540090D289 /* UIColor+FSPalette.m in Sources */,
+				05A701861BED20A00090D289 /* PDChartViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05EFB3611BEA3F6600F197E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05EFB3621BEA3F6600F197E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05EFB3661BEA3F6600F197E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05EFB3671BEA3F6600F197E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05EFB36A1BEA3F6600F197E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		05EFB36B1BEA3F6600F197E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05EFB36D1BEA3F6600F197E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PlateDetection/Tesseract",
+					Resources,
+				);
+				INFOPLIST_FILE = PlateDetection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = lemberg.PlateDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05EFB36E1BEA3F6600F197E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PlateDetection/Tesseract",
+					Resources,
+				);
+				INFOPLIST_FILE = PlateDetection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = lemberg.PlateDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05EFB3501BEA3F6600F197E1 /* Build configuration list for PBXProject "PlateDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05EFB36A1BEA3F6600F197E1 /* Debug */,
+				05EFB36B1BEA3F6600F197E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05EFB36C1BEA3F6600F197E1 /* Build configuration list for PBXNativeTarget "PlateDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05EFB36D1BEA3F6600F197E1 /* Debug */,
+				05EFB36E1BEA3F6600F197E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05EFB34D1BEA3F6600F197E1 /* Project object */;
+}

@@ -92,13 +92,7 @@ testStruct CarPlateRecognizer::getPlateImage(int &w, int &h) {
     
     //test
     vector<CarRect> charss;
-    for (int i = 0; i < h; i++) {
-        for (int j = 0; j < w; j++) {
-            if (i < 10) {
-                bitmap[i][j].red = bitmap[i][j].green = bitmap[i][j].blue = 255;
-            }
-        }
-    }
+    
     
     snapshot = new CarSnapshot(bitmap,w,h);
     CarRect newPlate;
@@ -127,21 +121,8 @@ testStruct CarPlateRecognizer::getPlateImage(int &w, int &h) {
         band.x1 += xStart;
         band.x2 += xStart;
         charss.push_back(band);
-        for (int i = 0; i < h; i++) {
-            for (int j = 0; j < w; j++) {
-                
-                if (((i == band.y1 || i == band.y2) && (j >= band.x1  && j <= band.x2)) || ((j == band.x1 || j == band.x2) && (i >= band.y1 && i <= band.y2))) {
-                    bitmap[i][j].red = 0;
-                    bitmap[i][j].green = 0;
-                    bitmap[i][j].blue = 255;
-                }
-                
-                if (j == peak.peak) {
-                    bitmap[i][j].red = 255;
-                    bitmap[i][j].blue = 0;
-                }
-            }
-        }
+        
+        //TODO: Small Neural Network OCR
         
         xStart = xEnd;
     }
