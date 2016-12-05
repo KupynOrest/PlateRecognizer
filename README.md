@@ -1,4 +1,4 @@
-# PlateRecognizer
+# Plate Recognizer
 
  A simple iOS Client for detecting License Plate characters on an image with core written on C++
 
